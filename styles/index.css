@@ -40,6 +40,11 @@ body {
   padding: 1em 2em 2em 2em;
 }
 .card-title {
+    font-size:1.5em;
+    border-bottom: 1px solid black;
+    padding-bottom:0.5em;
+    margin-bottom:0.5em;
 }
+
 .card-text {
 }
