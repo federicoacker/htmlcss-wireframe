@@ -10,19 +10,22 @@ body {
   width: 512px;
 }
 
-.sticky {
+.sticky-header {
   top: 0;
   position: sticky;
   color: white;
   background-color: #58788a;
   text-align: center;
-}
-.sticky-header {
   font-size: larger;
   padding: 0.5em 0.95em 0.5em 0.5em;
   border: 1px solid black;
 }
-.sticky-footer {
+.fixed-footer {
+  position: fixed;
+  color: white;
+  background-color: #58788a;
+  bottom: 0;
+  width: 100%;
   font-size: large;
   padding: 0.5em 0.5em 0.5em 0.95em;
   border: 1px solid black;
@@ -36,9 +39,9 @@ body {
 }
 
 .card {
-  width: 75%;
+  width: 85%;
   border: 2px solid black;
-  margin: 0 auto;
+  margin: 2em auto;
   padding: 1em 2em 2em 2em;
 }
 .card-title {
