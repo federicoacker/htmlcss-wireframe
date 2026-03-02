@@ -11,25 +11,21 @@ body {
   margin: 0 auto;
 }
 /* Stili per Header e Footer */
-.sticky-header {
-  top: 0;
+.sticky {
   position: sticky;
   color: white;
   background-color: #58788a;
   text-align: center;
-  font-size: larger;
   padding: 0.5em 0.95em 0.5em 0.5em;
   border: 1px solid black;
+  font-size: larger;
+}
+.sticky-header {
+  top: 0;
+  
 }
 .sticky-footer {
   bottom: 0;
-  position: sticky;
-  color: white;
-  background-color: #58788a;
-  text-align: center;
-  font-size: larger;
-  padding: 0.5em 0.95em 0.5em 0.5em;
-  border: 1px solid black;
 }
 /* Stili per card container e cards */
 .card-container {
