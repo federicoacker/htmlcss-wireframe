@@ -37,6 +37,7 @@ body {
 }
 
 .card {
+  min-height: 200px;
   width: 85%;
   border: 2px solid black;
   margin: 1em auto;
