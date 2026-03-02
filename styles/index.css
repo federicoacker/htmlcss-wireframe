@@ -8,8 +8,9 @@
 /* Stile Globale */
 body {
   width: 512px;
+  margin: 0 auto;
 }
-
+/* Stili per Header e Footer */
 .sticky-header {
   top: 0;
   position: sticky;
@@ -20,17 +21,17 @@ body {
   padding: 0.5em 0.95em 0.5em 0.5em;
   border: 1px solid black;
 }
-.fixed-footer {
-  position: fixed;
+.sticky-footer {
+  bottom: 0;
+  position: sticky;
   color: white;
   background-color: #58788a;
-  bottom: 0;
-  width: 100%;
-  font-size: large;
-  padding: 0.5em 0.5em 0.5em 0.95em;
+  text-align: center;
+  font-size: larger;
+  padding: 0.5em 0.95em 0.5em 0.5em;
   border: 1px solid black;
 }
-
+/* Stili per card container e cards */
 .card-container {
   width: 100%;
   border: 1px solid black;
