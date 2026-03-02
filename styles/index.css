@@ -9,7 +9,7 @@
 body
 {
     width:512px;
-    border: 2px dashed black;
+
 }
 
 .sticky
@@ -22,18 +22,19 @@ body
 .sticky-header
 {
     padding: 0.5em 0.95em 0.5em 0.5em;
-    border-bottom: 2px solid black;
-    margin-bottom: 0.5em;
+    border: 1px solid black;
 }
 .sticky-footer{
     padding: 0.5em 0.5em 0.5em 0.95em;
-    border-top: 2px solid black;
-    margin-top: 0.5em;
+    border: 1px solid black;
 }
 
 .card-container{
-
+ width:100%;
+ border: 1px solid black;
+ padding: 0.5em 2em;
 }
+
 .card{
 
 }
@@ -41,5 +42,5 @@ body
 
 }
 .card-text{
-    
+
 }
