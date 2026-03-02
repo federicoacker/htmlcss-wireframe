@@ -11,3 +11,22 @@ body
     width:512px;
     border: 2px dashed black;
 }
+
+.sticky
+{
+    top: 0;
+    position:sticky;
+    background-color: #7092A4;
+    text-align: center;
+}
+.sticky-header
+{
+    padding: 0.5em 0.95em 0.5em 0.5em;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.5em;
+}
+.sticky-footer{
+    padding: 0.5em 0.5em 0.5em 0.95em;
+    border-top: 2px solid black;
+    margin-top: 0.5em;
+}
