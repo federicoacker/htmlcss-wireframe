@@ -29,6 +29,7 @@ body {
 }
 /* Stili per card container e cards */
 .card-container {
+  display:grid;
   width: 100%;
   border: 1px solid black;
   background-color: #7092a4;
@@ -38,7 +39,7 @@ body {
 .card {
   width: 85%;
   border: 2px solid black;
-  margin: 2em auto;
+  margin: 1em auto;
   padding: 1em 2em 2em 2em;
 }
 .card-title {
