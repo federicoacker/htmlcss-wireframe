@@ -6,41 +6,40 @@
 }
 
 /* Stile Globale */
-body
-{
-    width:512px;
-
+body {
+  width: 512px;
 }
 
-.sticky
-{
-    top: 0;
-    position:sticky;
-    background-color: #7092A4;
-    text-align: center;
+.sticky {
+  top: 0;
+  position: sticky;
+  color:white;
+  background-color: #58788A;
+  text-align: center;
 }
-.sticky-header
-{
-    padding: 0.5em 0.95em 0.5em 0.5em;
-    border: 1px solid black;
+.sticky-header {
+  padding: 0.5em 0.95em 0.5em 0.5em;
+  border: 1px solid black;
 }
-.sticky-footer{
-    padding: 0.5em 0.5em 0.5em 0.95em;
-    border: 1px solid black;
-}
-
-.card-container{
- width:100%;
- border: 1px solid black;
- padding: 0.5em 2em;
+.sticky-footer {
+  padding: 0.5em 0.5em 0.5em 0.95em;
+  border: 1px solid black;
 }
 
-.card{
-
+.card-container {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #7092a4;
+  padding: 0.5em 2em;
 }
-.card-title{
 
+.card {
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 1em 2em 2em 2em;
 }
-.card-text{
-
+.card-title {
+}
+.card-text {
 }
