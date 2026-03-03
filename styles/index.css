@@ -17,7 +17,7 @@ body {
   color: white;
   background-color: #58788a;
   text-align: center;
-  padding: 0.5em 0.95em 0.5em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
   border: 1px solid black;
   font-size: larger;
 }
@@ -32,7 +32,8 @@ body {
 .card-container {
   display:grid;
   width: 100%;
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   background-color: #7092a4;
   padding: 0.5em 2em;
 }
